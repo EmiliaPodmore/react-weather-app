@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <h1>Weather App</h1>
         <Weather />
-        <footer>
+        <footer className="text-center">
           This project was coded by Emilia Podmore, it is{" "}
           <a
             href="https://github.com/EmiliaPodmore/react-weather"
