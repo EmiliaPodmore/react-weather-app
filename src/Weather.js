@@ -32,7 +32,7 @@ export default function Weather() {
             <li>Wind: 20 km/h</li>
           </ul>
         </div>
-        <div class="col-6">
+        <div class="col-6 text-end">
           <span className="temperature">12</span>
           <span className="unit">˚C</span>
           <p>Light showers</p>
