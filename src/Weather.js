@@ -9,7 +9,7 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
-      date: "Wednesday 3rd April",
+      date: new Date(response.data.dt * 1000),
       city: response.data.name,
       iconUrl: "",
       description: response.data.weather[0].description,
@@ -42,7 +42,9 @@ export default function Weather(props) {
         <h1>{weatherData.city}</h1>
         <div className="row mt-3">
           <div className="col-6">
-            <p className="date">{weatherData.date}</p>
+            <p className="date">
+              <FormattedDate date={weatherData.date} />
+            </p>
             <ul>
               <li>Humidity: {weatherData.humidity}%</li>
               <li>Wind: {weatherData.wind}km/h</li>
