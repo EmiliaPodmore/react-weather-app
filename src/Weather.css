@@ -26,13 +26,17 @@ body {
   padding: 0;
 }
 .Weather ul {
-  margin-top: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0;
+  margin-top: 16px;
 }
 .Weather li {
   font-size: 18px;
   line-height: 30px;
   list-style: none;
+}
+.Weather strong {
+  color: dodgerblue;
 }
 .Weather canvas {
   margin: 10px auto;
