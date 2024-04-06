@@ -21,11 +21,14 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
         <div className="col-6 text-center">
-          <WeatherIcon code={props.data.icon} />
-          <span className="temperature">
-            {Math.round(props.data.temperature)}
-          </span>
-          <span className="unit">˚C</span>
+          <div className="d-flex">
+            <WeatherIcon code={props.data.icon} size={62} />
+
+            <span className="temperature">
+              {Math.round(props.data.temperature)}
+            </span>
+            <span className="unit">˚C</span>
+          </div>
           <p className="text-capitalize">{props.data.description}</p>
         </div>
       </div>
