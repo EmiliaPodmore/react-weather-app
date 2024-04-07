@@ -10,7 +10,7 @@ export default function App() {
         <footer className="text-center">
           This project was coded by Emilia Podmore, it is{" "}
           <a
-            href="https://github.com/EmiliaPodmore/react-weather"
+            href="https://github.com/EmiliaPodmore/react-weather-app"
             target="_blank"
           >
             open-sourced on Github
