@@ -16,7 +16,10 @@ export default function App() {
             open-sourced on Github
           </a>{" "}
           and{" "}
-          <a href="" target="_blank">
+          <a
+            href="https://umbrellaweather-reactapp.netlify.app"
+            target="_blank"
+          >
             hosted on Netlify
           </a>
         </footer>
