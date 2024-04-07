@@ -50,6 +50,7 @@ body {
 .Weather canvas {
   color: black;
   margin: 10px auto;
+  margin-right: 20px;
 }
 .Weather .temperature {
   font-size: 64px;

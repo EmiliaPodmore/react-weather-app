@@ -17,7 +17,11 @@ export default function App() {
             open-sourced on Github
           </a>{" "}
           and{" "}
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://cloudy-react-weather-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hosted on Netlify
           </a>
         </footer>
