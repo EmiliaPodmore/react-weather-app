@@ -36,43 +36,40 @@ body {
   line-height: 40px;
   margin: 30px 0 10px 0;
 }
-.Weather p {
+.Weather .date {
   color: #595c5f;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0;
-  padding: 0;
 }
 .Weather ul {
   padding: 0;
-  margin-top: 16px;
 }
 .Weather li {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 36px;
   list-style: none;
 }
 .Weather canvas {
   color: black;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .Weather .temperature {
-  font-size: 54px;
+  font-size: 60px;
   font-weight: bold;
   line-height: 64px;
-  margin-left: 20px;
 }
 .Weather .unit {
   font-size: 20px;
   line-height: 1;
   text-decoration: none;
   position: relative;
-  margin-left: 20px;
-  top: -26px;
+  margin-left: 10px;
+  top: -28px;
 }
 .Weather .unit a {
   text-decoration: none;
 }
 .Weather .description {
-  margin-top: 10px;
+  color: #595c5f;
+  font-size: 18px;
+  line-height: 1;
+  margin-top: 14px;
 }
