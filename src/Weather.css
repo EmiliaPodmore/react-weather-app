@@ -1,12 +1,7 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #8dc6ff;
-  background: radial-gradient(
-    827px at 47.3% 48%,
-    rgb(255, 255, 255) 0%,
-    rgb(138, 192, 216) 90%
-  );
+  background: radial-gradient(827px at 47.3% 48%, #f9f9f9 0%, #a6e4e7 90%);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
 }

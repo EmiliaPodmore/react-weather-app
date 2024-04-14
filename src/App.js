@@ -8,7 +8,15 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <footer className="text-center">
-          This project was coded by Emilia Podmore, it is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://www.shecodes.io/graduates/97316-emilia-podmore"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Emilia Podmore
+          </a>
+          , it is{" "}
           <a
             href="https://github.com/EmiliaPodmore/react-weather-app"
             target="_blank"
