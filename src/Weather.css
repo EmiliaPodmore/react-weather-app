@@ -1,7 +1,7 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background: radial-gradient(827px at 47.3% 48%, #f9f9f9 0%, #8dc6ff 90%);
+  background: radial-gradient(827px at 47.3% 48%, #f9f9f9 0%, #acdcee 90%);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
 }
@@ -18,22 +18,21 @@ body {
   }
 }
 .Weather {
-  background: rgb(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  border-radius: 4px;
   max-width: 600px;
+  margin-top: 30px;
   padding: 30px;
-  margin-top: 40px;
+  background: linear-gradient(#0000000f, #0000000f);
+  border-radius: 4px;
 }
 h1 {
-  color: #212121;
+  color: var(--primary-colour);
   font-size: 48px;
   font-weight: bold;
   line-height: 40px;
   margin: 30px 0 10px 0;
 }
 .Weather .date {
-  color: #595c5f;
+  color: var(--secondary-color);
 }
 .Weather ul {
   padding: 0;
@@ -47,13 +46,13 @@ h1 {
   margin: 20px auto;
 }
 .Weather .temperature {
-  color: #212121;
+  color: var(--primary-colour);
   font-size: 60px;
   font-weight: bold;
   line-height: 64px;
 }
 .Weather .unit {
-  color: #212121;
+  color: var(--primary-colour);
   font-size: 20px;
   line-height: 1;
   text-decoration: none;
@@ -65,7 +64,7 @@ h1 {
   text-decoration: none;
 }
 .Weather .description {
-  color: #595c5f;
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 1;
   margin-top: 14px;

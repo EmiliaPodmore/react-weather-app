@@ -1,9 +1,15 @@
+:root {
+  --primary-colour: #363434;
+  --secondary-color: #757575;
+  --accent-colour: ;
+}
+
 .App {
   max-width: 600px;
   margin: 20px auto;
 }
 .App footer {
-  color: #595c5f;
+  color: var(--primary-color);
   font-size: 13px;
   margin: 10px 0;
 }
