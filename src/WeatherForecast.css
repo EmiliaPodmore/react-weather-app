@@ -7,11 +7,11 @@
 }
 .WeatherForecast-day {
   color: var(--primary-colour);
-  font-size: 20px;
+  font-size: 18px;
 }
-.WeatherForecast-temperature {
+.WeatherForecast-temperatures {
   color: var(--primary-colour);
-  font-size: 20px;
+  font-size: 18px;
 }
 .WeatherForecast-temperature-min {
   color: var(--secondary-color);
