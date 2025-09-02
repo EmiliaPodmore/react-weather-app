@@ -80,3 +80,15 @@ h1 {
   line-height: 1;
   margin-top: 14px;
 }
+.unit-toggle {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
+.unit-toggle:hover {
+  color: #0056b3;
+}
